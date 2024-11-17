@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #360369;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    font-size: 100px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#fetch-weather{
+    height: 8%;
+    width: 30%;
+    font-size: 22px;
+    border: none;
+}
+
+#fetch-weather:hover{
+    background-color: rgb(172, 172, 172);
+}
+
+
+
+/* Second HTML Page  */
+
+.weatherMap{
+    background-color: #360369;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#welcometext{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#normaltext{
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+
+#latlong{
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#latitude , #longitude{
+    height: 35px;
+    width: 20vw;
+    background-color: #270846;
+    margin: 12px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+#gmap{
+    height: 62vh;
+    width: 94vw;
+    margin: 2%;
+}
+
+#detailsSection{
+    padding: 20px;
+    color: #360369;
+}
+
+#displayDetails{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#detailsTitle{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#displayDetails > div{
+    font-size: 18px;
+    height: 35px;
+    width: 20%;
+    background-color: #360369;
+    margin: 10px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}

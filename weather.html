@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="weatherMap">
+        <h1 id="welcometext">Welcome to Weather App</h1>
+        <p id="normaltext">Here is your current location</p>
+        <div id="latlong">
+            <div id="latitude"></div>
+            <div id="longitude"></div>
+        </div>
+        <iframe id="gmap" src=""></iframe>
+    </section>
+    <section id="detailsSection">
+        <div id="detailsTitle">Your Weather Data</div>
+        <div id="displayDetails">
+            <div id="location"></div>
+            <div id="windSpeed"></div>
+            <div id="humidity"></div>
+            <div id="timeZone"></div>
+            <div id="pressure"></div>
+            <div id="windDirection"></div>
+            <div id="weatherCondition"></div>
+            <div id="feelsLike"></div>
+        </div>
+    </section>
+
+    <script src="fetchDetails.js"></script>
+</body>
+</html>
